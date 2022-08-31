@@ -4,14 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>Pokedex</title>
 <script defer src="main.js"></script></head>
 <body>
     <section class="main-container">
-        <nav>
+       <div class="bg-stone-50 text-stone-600 container">
+      <header
+        class="bg-white border border-stone-200 shadow divide-y divide-stone-200"
+      >
+        <div
+          class="py-2 px-8 max-w-7xl mx-auto md:flex items-center justify-between space-x-4 space-y-4 md:space-y-0"
+        >
+          <div class="">
+            <a href="../index.html">
+              <img class="h-8 w-auto logoYummy" src="#" alt="Yummy Yums" />
+            </a>
+          </div>
 
-        </nav>
+          <div id="meals-counter"></div>
+
+          <form id="submit">
+            <div class="relative text-gray-600 focus-within:text-gray-400">
+              <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                <button
+                  type="submit"
+                  class="p-1 focus:outline-none focus:shadow-outline"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    ></path>
+                  </svg>
+                </button>
+              </span>
+              <input
+                type="search"
+                id="search"
+                class="w-full md:w-96 py-2 text-sm text-gray-900 rounded-xl pl-10 focus:outline-none focus:bg-white focus:text-gray-900 border-2"
+                placeholder="Find a recipe"
+                autocomplete="off"
+                value=""
+              />
+            </div>
+          </form>
+
+          <div class="grid grid-cols-2 divide-x font-bold w-auto text-sm">
+            <a href="#" class="px-3">Create Account</a>
+            <a href="#" class="px-3">Login</a>
+          </div>
+        </div>
+      </header>
 
         <div class="meal-section">
 
