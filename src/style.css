@@ -1,3 +1,27 @@
 body {
     background-color: red;
 }
+
+.reservation {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+#popup-reserve {
+    display:flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+#popup-reserve input {
+    width: 16rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    padding-left: 1rem;
+}
+
+.reserve-btn {
+    width: 12rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+}
