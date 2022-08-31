@@ -1,10 +1,38 @@
 body {
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 .main-container {
-    width: 70%;
+    width: 85%;
     height: 100%;
     border: 1px solid white;
     margin: 0 auto;
+    background-color: #e3f2fd;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    text-decoration: underline;
+}
+
+.navbar-collapse ul li {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-collapse ul li a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-brand img {
+    width: 200px;
+    height: 40px;
+}
+
+.navbar-inverse {
+    background-color: #3A1B37;
 }
