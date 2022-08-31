@@ -14,8 +14,18 @@ body {
 
 .navbar-nav {
     font-size: 20px;
+    font-weight: 200;
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    box-shadow: inset 0 0 0 0 #374151;
+    margin: 0 -.20rem;
+    padding: 0 .20rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.navbar-nav:hover {
+  box-shadow: inset 85px 0 0 0 #cecece;
+  color: white;
 }
 
 .navbar-collapse ul li {
