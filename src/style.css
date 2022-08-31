@@ -1,21 +1,21 @@
 body {
-    background-color: whitesmoke;
+    background-color: #374151;
 }
 
 .main-container {
     width: 85%;
     height: 100%;
     border: 1px solid white;
+    box-shadow: 5px ;
     margin: 0 auto;
     background-color: #e3f2fd;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    color: white !important;
-}
 
-.navbar-inverse .navbar-nav > li > a:hover {
-    text-decoration: underline;
+.navbar-nav {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
 
 .navbar-collapse ul li {
@@ -33,6 +33,4 @@ body {
     height: 40px;
 }
 
-.navbar-inverse {
-    background-color: #3A1B37;
-}
+
