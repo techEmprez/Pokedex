@@ -1,3 +1,10 @@
 body {
-    background-color: red;
+    background-color: black;
+}
+
+.main-container {
+    width: 70%;
+    height: 100%;
+    border: 1px solid white;
+    margin: 0 auto;
 }
