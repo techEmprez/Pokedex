@@ -1,2 +1,4 @@
 import './style.css';
-import AddReservation from './modules/addReservation.js';
+import displayCards from './modules/cards.js';
+
+displayCards();
