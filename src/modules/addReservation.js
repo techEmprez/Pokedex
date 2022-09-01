@@ -1,5 +1,5 @@
 class AddReservation {
-    link = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/NeJSPpMrADKWN3Hg0NY2/reservations';
+    link = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/lfDXQ5tbTGkCxzSx1rS7/reservations';
 
     renderForm = () => `<form id='submit-reservation'>
 <h3>Add a reservation</h3>
