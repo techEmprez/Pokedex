@@ -33,3 +33,17 @@ renderReservations = (data) => {
     });
     list.insertAdjacentHTML('afterbegin', html);
   };
+
+  async reservationsCounter(id) {
+    const counter = document.getElementById('reservations-counter');
+
+    try {
+      const response = await fetch(`${this.link}?item_id=${id}`, { method: 'get' });
+
+      const data = await response.json();
+      counter.textContent = `(${data.length})`;
+      return data;
+    } catch (e) {
+      return null;
+    }
+  }
