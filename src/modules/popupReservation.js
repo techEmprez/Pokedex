@@ -42,3 +42,22 @@ renderPopup(data) {
       form.reset();
     });
   }
+
+  openPopup = (e) => {
+    document.body.classList.add('popup-open');
+    document.body.insertAdjacentHTML('afterbegin', `
+    <div id='reservationPopup'>
+      <div id='reservation-p__container'>
+        <div id='reservation__container'>
+            <div id='reservation__closeBtn'>
+              <div id='r__cBtn-lines'></div>
+            </div>
+            <div id='reservation__data-content'></div>
+          </div>
+      </div>
+    </div>
+    `);
+
+    this.apidata(e.target.dataset.name);
+    this.removePopup();
+  };
