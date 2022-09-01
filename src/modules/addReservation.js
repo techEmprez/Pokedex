@@ -47,3 +47,81 @@ renderReservations = (data) => {
       return null;
     }
   }
+
+
+  async getReservations(id) {
+    try {
+      const response = await fetch(`${this.link}?item_id=${id}`, { method: 'get' });
+      if (!response.ok) {
+        throw new Error(response.statusText);
+      } else {
+        const data = await response.json();
+        this.renderReservations(data);
+        this.reservationsCounter(id);
+      }
+    } catch (e) {
+      throw Error(e);
+    }
+  }
+
+  invalidFormData = (form) => {
+    if (!document.getElementById('reservationFormErr')) {
+      form.insertAdjacentHTML('afterend', `<div id="reservationFormErr">Invalid values</div>
+      `);
+    }
+  };
+
+  async sendData({
+    id, name, start, end,
+  }) {
+    const dataJson = {
+      item_id: id,
+      username: name,
+      date_start: start,
+      date_end: end,
+    };
+
+    try {
+      const response = await fetch(`${this.link}`, {
+        method: 'POST',
+        body: JSON.stringify(dataJson),
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
+        },
+      });
+      if (response.status === 201) {
+        this.renderReservations([dataJson]);
+        this.reservationsCounter(id);
+      }
+    } catch (e) {
+      throw Error(e);
+    }
+  }
+
+  submitForm(data, formElement, id) {
+    const name = data.get('name');
+    const start = data.get('res-popup-start-date');
+    const end = data.get('res-popup-end-date');
+
+    if (!this.validator.validateText(name)
+      || !this.validator.validateDate(start)
+      || !this.validator.validateDate(end)) {
+      this.invalidFormData(formElement);
+      return false;
+    }
+
+    const formErr = document.getElementById('reservationFormErr');
+    if (formErr !== null) {
+      formErr.remove();
+    }
+
+    this.sendData({
+      id, name, start, end,
+    });
+
+    return 1;
+  }
+}
+
+export default AddReservation;
