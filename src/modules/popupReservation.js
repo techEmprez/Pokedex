@@ -1,3 +1,18 @@
+removePopup = () => {
+    const popup = document.getElementById('reservationPopup');
+    const closeBtn = document.getElementById('reservation__closeBtn');
+
+    popup.addEventListener('click', (e) => {
+      if (e.target.id === 'reservationPopup') popup.remove();
+      document.body.classList.remove('popup-open');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      popup.remove();
+      document.body.classList.remove('popup-open');
+    });
+  };
+
 renderPopup(data) {
     const res = data.meals[0];
 
