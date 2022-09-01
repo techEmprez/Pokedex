@@ -18,3 +18,18 @@ Reservations
 <div id='reservations-list'>
 </div>
 `;
+
+renderReservations = (data) => {
+    const list = document.getElementById('reservations-list');
+    let html = `
+    `;
+
+    data.reverse().forEach((el) => {
+      html += `
+      <div class="reservation-list-item">
+        <strong>${el.date_start}</strong> - <strong>${el.date_end}</strong> by <strong>${el.username}</strong>
+      </div>
+        `;
+    });
+    list.insertAdjacentHTML('afterbegin', html);
+  };
