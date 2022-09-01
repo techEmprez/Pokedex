@@ -17,8 +17,7 @@ class Reservations {
     return 1;
   }
 
-
-removePopup = () => {
+  removePopup = () => {
     const popup = document.getElementById('reservationPopup');
     const closeBtn = document.getElementById('reservation__closeBtn');
 
@@ -33,7 +32,7 @@ removePopup = () => {
     });
   };
 
-renderPopup(data) {
+  renderPopup(data) {
     const res = data.meals[0];
 
     const id = res.idMeal;
