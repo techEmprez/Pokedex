@@ -96,3 +96,14 @@ renderPopup(data) {
     this.apidata(e.target.dataset.name);
     this.removePopup();
   };
+
+  init = () => {
+    const reservationBtn = document.querySelectorAll('.reservation-btn');
+
+    reservationBtn.forEach((el) => {
+      el.addEventListener('click', this.openPopup);
+    });
+  };
+}
+
+export default Reservations;
