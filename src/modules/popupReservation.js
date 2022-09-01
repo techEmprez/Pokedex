@@ -1,3 +1,23 @@
+import AddReservation from './addReservation.js';
+
+class Reservations {
+  constructor() {
+    this.AddShowRes = new AddReservation();
+  }
+
+  async apidata(dishName) {
+    const response = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${dishName}`);
+
+    try {
+      const data = await response.json();
+      this.renderPopup(data);
+    } catch (e) {
+      return null;
+    }
+    return 1;
+  }
+
+
 removePopup = () => {
     const popup = document.getElementById('reservationPopup');
     const closeBtn = document.getElementById('reservation__closeBtn');
