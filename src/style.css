@@ -1,5 +1,5 @@
 body {
-    background-color: #374151;
+    background-color: #283618;
 }
 
 .main-container {
@@ -8,7 +8,7 @@ body {
     border: 1px solid white;
     box-shadow: 5px ;
     margin: 0 auto;
-    background-color: #e3f2fd;
+    background-color: #606c38;
 }
 
 
@@ -16,16 +16,18 @@ body {
     font-size: 20px;
     font-weight: 200;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
-    box-shadow: inset 0 0 0 0 #374151;
-    margin: 0 -.20rem;
-    padding: 0 .20rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-.navbar-nav:hover {
-  box-shadow: inset 85px 0 0 0 #cecece;
-  color: white;
+.nav-item {
+    color: #6c757d;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+  border-style: double;
+  background-color: #283618;
+  color: #fff;
 }
 
 .navbar-collapse ul li {
