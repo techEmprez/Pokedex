@@ -10,7 +10,7 @@
     "build": "webpack",
     "deploy": "npm run build && gh-pages -d dist"
   },
-   "keywords": [],
+  "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -31,7 +31,7 @@
     "stylelint-scss": "^3.21.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^4.9.3"
+    "webpack-dev-server": "^4.10.1"
   },
   "dependencies": {
     "lodash": "^4.17.21"

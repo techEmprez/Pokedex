@@ -1,7 +1,5 @@
 /* eslint-disable no-undef */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-
 const path = require('path');
 
 module.exports = {

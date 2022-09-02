@@ -3,7 +3,7 @@ import getData from './modules/get.js';
 // console.log(getData());
 getData().then((data) => {
   const listOfMeals = data.meals;
-  listOfMeals.forEach((item, index) => {
+  listOfMeals.forEach((item) => {
     const meal = document.createElement('div');
     meal.classList.add('meal');
     meal.innerHTML = `
