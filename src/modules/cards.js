@@ -29,7 +29,7 @@ const displayCards = async () => {
                    <ul>
                    <li><button class='reservation-btn' data-name='${meal.strMeal}' type='button'>Reservations</button></li>
                    </ul>
-                  
+          
                </div>
              </div>`;
     recipeCards.innerHTML = html;

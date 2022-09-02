@@ -1,3 +1,4 @@
+/* 
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
@@ -307,17 +308,16 @@ body.popup-open {
 #reservation__data-content h2 {
   margin-bottom: 10px;
 }
-
-#reservation-p__container {
+ */
+/* #reservation-p__container {
   max-width: 90vw;
 
-  /* stylelint-disable-next-line */
   height: fit-content;
 
-  /* stylelint-disable-next-line */
   height: -moz-fit-content;
-}
+} */
 
+/* 
 #resPopup--dish-description {
   display: flex;
   flex-direction: column;
@@ -332,7 +332,7 @@ body.popup-open {
 }
 
 #resPopup--dish-description a {
-  text-decoration: none;
+  text-decoration: none;//
   color: var(--text-color-2);
 }
 
@@ -478,3 +478,5 @@ form {
   margin-top: 1.875rem;
   border-radius: 5%;
 }
+
+*/
