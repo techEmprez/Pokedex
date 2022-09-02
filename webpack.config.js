@@ -1,5 +1,7 @@
 /* eslint-disable no-undef */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
 const path = require('path');
 
 module.exports = {
@@ -11,7 +13,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
     clean: true,
-    assetModuleFilename: '[name][ext]',
+    assetModuleFilename: 'img/[name][ext]',
   },
   devServer: {
     static: './dist',
