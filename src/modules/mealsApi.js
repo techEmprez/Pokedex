@@ -1,26 +1,33 @@
-// Fetch MealDB API
-const url = 'www.themealdb.com/api/json/v1/1/filter.php?c=Seafood';
-const getMeals = async () => {
-  const response = await fetch(url);
+export default displayCards = async () => {
+  const domLoaded = document.querySelector('#apiDataLoaded');
+  const response = await fetch(
+    'https://www.themealdb.com/api/json/v1/1/filter.php?c=seafood',
+  );
   const data = await response.json();
-  return data;
-};
-export default getMeals;
 
-// for (let i = 0; i < 20; i += 1) {
-//   data.meals[i].idMeal = i;
-//   const file = data.meals;
-//   const mealsArray = file.filter((Objects) => Objects.idMeal <= 11);
-//   let html = '';
-//   mealsArray.forEach((meal) => {
-//     const htmlSegment = `<div class="meal">
-//                             <img src="${meal.strMealThumb}" >
-//                             <h2>${meal.strMeal}</h2>
-//                             <button>Comments</button>
-//                             <button>Reservations</button>
-//                             </div>`;
-
-//     html += htmlSegment;
-//     document.querySelector('#apiDataLoaded').innerHTML = html;
-//   });
-// }
+  for (let i = 0; i < 20; i += 1) {
+    data.meals[i].idMeal = i;
+  }
+  const file = data.meals;
+  const newArray = file.filter((Objects) => Objects.idMeal <= 11);
+  let html = '';
+  newArray.forEach((meal) => {
+    html += `<div class='card' id='${meal.idMeal}'>
+               <div class='card-img'>
+                   <img src='${meal.strMealThumb}' alt='${meal.strMeal}'>
+               </div>
+               <div class='card-info'>
+                   <h2>${meal.strMeal}</h2>
+                   <ul>
+                       <li><button id=${meal.idMeal}  class='comment-btn' type='button'>Comments</button></li>
+                       <li><button class='like-btn'><i class='fa-regular fa-heart'></i><span class='like-count'>0</span></button></li>
+                     
+                   </ul>
+                   <ul>
+                   <li><button class='reservation-btn' data-name='${meal.strMeal}' type='button'>Reservations</button></li>
+                   </ul>
+                  
+               </div>
+             </div>`;
+    domLoaded.innerHTML = html;
+  });
