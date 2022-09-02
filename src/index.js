@@ -11,7 +11,7 @@ getData().then((data) => {
       <img src="${item.strMealThumb}" alt="${item.strMeal}">
       <p>${item.strInstructions}</p>
       <button type="button" class="comments-btn1">Comments</button>
-      <button type="button" class="comments-btn2">reservations</button>
+      <button type="button" class="reservations-btn">reservations</button>
     `;
     document.querySelector('.items-container').appendChild(meal);
   });
