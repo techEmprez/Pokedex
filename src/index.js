@@ -2,6 +2,7 @@ import './style.css';
 import './popUpStyle.css';
 import getMealData from './modules/get.js';
 import display, { getComment, post } from './modules/getcomapi.js';
+
 getMealData().then((data) => {
   const listOfMeals = data.meals;
   listOfMeals.forEach((item, id) => {
@@ -16,8 +17,7 @@ getMealData().then((data) => {
 
     `;
     document.querySelector('.items-container').appendChild(meal);
-    const commentBtns = document.querySelectorAll(`.comments-btn1`);
-
+    const commentBtns = document.querySelectorAll('.comments-btn1');
     commentBtns.forEach((item) => {
       item.addEventListener('click', (e) => {
         const commentId = +e.target.id.split('-')[2];
@@ -39,6 +39,7 @@ window.addEventListener('submit', (e) => {
     const i =
       e.target.previousElementSibling.previousElementSibling
         .previousElementSibling.id;
+
     const comment = {
       item_id: ` ${i}`,
       username: `${name}`,
