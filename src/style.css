@@ -42,10 +42,6 @@ body {
   height: 40px;
 }
 
-p {
-  display: none;
-}
-
 /* Reservation modal style begins here */
 .reservation-btn {
   padding: 0.3em 0.9em;
@@ -197,4 +193,3 @@ body.popup-open {
   min-width: 17rem;
 }
 
-/* Reservation modal style ends here */
