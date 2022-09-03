@@ -105,19 +105,6 @@ class AddReservation {
     const name = data.get('name');
     const start = data.get('res-popup-start-date');
     const end = data.get('res-popup-end-date');
-
-    if (!this.validator.validateText(name)
-      || !this.validator.validateDate(start)
-      || !this.validator.validateDate(end)) {
-      this.invalidFormData(formElement);
-      return false;
-    }
-
-    const formErr = document.getElementById('reservationFormErr');
-    if (formErr !== null) {
-      formErr.remove();
-    }
-
     this.sendData({
       id, name, start, end,
     });
