@@ -3,7 +3,7 @@ const mealHeading = document.getElementById('exampleModalLabel');
 const mealDesc = document.getElementById('meal-desc');
 const mealImg = document.getElementById('meal-img');
 const comment5 = document.querySelector('.commentContainer');
-const overlay = document.querySelector('#overlay');
+
 let showComments;
 const popUprr = [
   52802, 52815, 52835, 52896, 52903, 52906, 52915, 52918, 52919, 52957, 52996,
@@ -12,12 +12,11 @@ const popUprr = [
 
 export const getComment = async (i) => {
   const response = await fetch(
-    `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/HRxPpdN7MLinlCuupthb/comments?item_id=${popUprr[i]}`
+    `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/HRxPpdN7MLinlCuupthb/comments?item_id=${i}`
   );
   const data = await response.json();
   const arry = Array.from(data);
   await showComments(arry);
-  console.log(arry);
 };
 
 export const commentsCounter = (data) => {
@@ -46,9 +45,8 @@ showComments = (data) => {
 };
 
 export const post = async (i, comment) => {
-  console.log(comment);
   await fetch(
-    `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/HRxPpdN7MLinlCuupthb/comments `,
+    `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/HRxPpdN7MLinlCuupthb/comments`,
     {
       method: 'POST',
       headers: {
