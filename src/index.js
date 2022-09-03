@@ -40,9 +40,9 @@ window.addEventListener('submit', (e) => {
       e.target.previousElementSibling.previousElementSibling
         .previousElementSibling.id;
     const comment = {
-      item_id: i,
-      username: name.value,
-      comment: text.value,
+      item_id: ` ${i}`,
+      username: `${name}`,
+      comment: `${text}`,
     };
     e.target.reset();
     post(i, comment);
