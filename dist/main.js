@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n  background-color: #283618;\\r\\n}\\r\\n\\r\\n​ .main-container {\\r\\n  width: 85%;\\r\\n  height: 100%;\\r\\n  border: 1px solid white;\\r\\n  box-shadow: 5px;\\r\\n  margin: 0 auto;\\r\\n  background-color: #606c38;\\r\\n}\\r\\n\\r\\n​ ​ .navbar-nav {\\r\\n  font-size: 20px;\\r\\n  font-weight: 200;\\r\\n  font-family: \\\"Times New Roman\\\", Times, serif;\\r\\n}\\r\\n\\r\\n​ .nav-item {\\r\\n  color: #6c757d;\\r\\n  font-style: normal;\\r\\n  text-decoration: none;\\r\\n}\\r\\n\\r\\n​ .nav-item:hover {\\r\\n  border-style: double;\\r\\n  background-color: #283618;\\r\\n  color: #fff;\\r\\n}\\r\\n\\r\\n​ .navbar-collapse ul li {\\r\\n  padding-top: 0;\\r\\n  padding-bottom: 0;\\r\\n}\\r\\n\\r\\n​ .navbar-collapse ul li a {\\r\\n  padding-top: 0;\\r\\n  padding-bottom: 0;\\r\\n}\\r\\n\\r\\n​ .navbar-brand img {\\r\\n  width: 200px;\\r\\n  height: 40px;\\r\\n}\\r\\n\\r\\np {\\r\\n  display: none;\\r\\n}\\r\\n\\r\\n.like {\\r\\n  width: 50px;\\r\\n  height: 30px;\\r\\n  padding-bottom: 10px;\\r\\n  padding-top: 5px;\\r\\n  margin-top: auto;\\r\\n}\\r\\n\\r\\n.like i {\\r\\n  cursor: pointer;\\r\\n  margin-right: 0.5rem;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://pokedex/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n  background-color: #283618;\\r\\n}\\r\\n\\r\\n​ .main-container {\\r\\n  width: 85%;\\r\\n  height: 100%;\\r\\n  border: 1px solid white;\\r\\n  box-shadow: 5px;\\r\\n  margin: 0 auto;\\r\\n  background-color: #606c38;\\r\\n}\\r\\n\\r\\n​ ​ .navbar-nav {\\r\\n  font-size: 20px;\\r\\n  font-weight: 200;\\r\\n  font-family: \\\"Times New Roman\\\", Times, serif;\\r\\n}\\r\\n\\r\\n​ .nav-item {\\r\\n  color: #6c757d;\\r\\n  font-style: normal;\\r\\n  text-decoration: none;\\r\\n}\\r\\n\\r\\n​ .nav-item:hover {\\r\\n  border-style: double;\\r\\n  background-color: #283618;\\r\\n  color: #fff;\\r\\n}\\r\\n\\r\\n​ .navbar-collapse ul li {\\r\\n  padding-top: 0;\\r\\n  padding-bottom: 0;\\r\\n}\\r\\n\\r\\n​ .navbar-collapse ul li a {\\r\\n  padding-top: 0;\\r\\n  padding-bottom: 0;\\r\\n}\\r\\n\\r\\n​ .navbar-brand img {\\r\\n  width: 200px;\\r\\n  height: 40px;\\r\\n}\\r\\n\\r\\np {\\r\\n  display: none;\\r\\n}\\r\\n\\r\\nimg {\\r\\n  width: 50px;\\r\\n  height: 50px;\\r\\n}\\r\\n\\r\\n.like {\\r\\n  width: 50px;\\r\\n  height: 30px;\\r\\n  padding-bottom: 10px;\\r\\n  padding-top: 5px;\\r\\n  margin-top: auto;\\r\\n}\\r\\n\\r\\n.like img {\\r\\n  cursor: pointer;\\r\\n  margin-right: 0.5rem;\\r\\n}\\r\\n\\r\\n.qty {\\r\\n  color: white;\\r\\n  font-size: 15px;\\r\\n  margin: 15px;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://pokedex/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_get_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/get.js */ \"./src/modules/get.js\");\n/* harmony import */ var _modules_getLikes_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/getLikes.js */ \"./src/modules/getLikes.js\");\n/* harmony import */ var _modules_showLikes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/showLikes.js */ \"./src/modules/showLikes.js\");\n\n\n\n\n// console.log(getData());\n(0,_modules_showLikes_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n(0,_modules_get_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])().then((data) => {\n  const listOfMeals = data.meals;\n  listOfMeals.forEach((item) => {\n    const meal = document.createElement('div');\n    meal.classList.add('meal');\n    meal.innerHTML = `\n      <h2>${item.strMeal}</h2>\n      <img src=\"${item.strMealThumb}\" alt=\"${item.strMeal}\">\n      <p>${item.strInstructions}</p>\n      <button type=\"button\" class=\"comments-btn1\">Comments</button>\n      <button type=\"button\" class=\"comments-btn2\">reservations</button>\n      <div class=\"like\">\n          <p><i data-id=\"${item.id}\" class=\"fa fa-heart-o\" aria-hidden=\"true\"></i> \n          <span class=\"qty\">0</span> <span>Likes</span></p>\n      </div>\n    `;\n\n    document.querySelector('.items-container').appendChild(meal);\n  });\n  (0,_modules_showLikes_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n  (0,_modules_getLikes_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n});\n\n\n//# sourceURL=webpack://pokedex/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_get_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/get.js */ \"./src/modules/get.js\");\n/* harmony import */ var _modules_getLikes_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/getLikes.js */ \"./src/modules/getLikes.js\");\n/* harmony import */ var _asset_like_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./asset/like-svgrepo-com.svg */ \"./src/asset/like-svgrepo-com.svg\");\n/* harmony import */ var _modules_showLikes_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/showLikes.js */ \"./src/modules/showLikes.js\");\n\r\n\r\n\r\n\r\n\r\n\r\nconst renderLikes = async (listItem) => {\r\n  const response = await (0,_modules_getLikes_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\r\n  response.forEach((e) => {\r\n    if (e.item_id === `${listItem.id}`) {\r\n      listItem.querySelector('.qty').innerText = e.likes;\r\n    }\r\n  });\r\n};\r\n\r\nconst displayMeals = () => {\r\n  (0,_modules_get_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])().then((data) => {\r\n    const listOfMeals = data.meals;\r\n    listOfMeals.forEach((item) => {\r\n      const meal = document.createElement('div');\r\n      meal.classList.add('meal');\r\n      meal.id = item.idMeal;\r\n      meal.innerHTML = `\r\n      <h2>${item.strMeal}</h2>\r\n      <img src=\"${item.strMealThumb}\" alt=\"${item.strMeal}\">\r\n      <p>${item.strInstructions}</p>\r\n      <button type=\"button\" class=\"comments-btn1\">Comments</button>\r\n      <button type=\"button\" class=\"comments-btn2\">reservations</button>\r\n      <div class=\"like\">\r\n      <img src='${_asset_like_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_3__}' class=\"icon\" />          \r\n      <span class=\"qty\">0</span> <span>Likes</span></p>\r\n      </div>\r\n    `;\r\n\r\n      document.querySelector('.items-container').appendChild(meal);\r\n    });\r\n  // addEventToLike();\r\n  // getLikes();\r\n  }).finally(() => {\r\n    (0,_modules_showLikes_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\r\n    document.querySelectorAll('.meal').forEach((meal) => {\r\n      renderLikes(meal);\r\n    });\r\n  });\r\n};\r\n\r\nwindow.addEventListener('load', () => {\r\n  displayMeals();\r\n});\r\n\n\n//# sourceURL=webpack://pokedex/./src/index.js?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getLikes = async () => {\n  const getApiLike = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/uvTXiMX6FVr6xHgADoVW/likes';\n  const response = await fetch(getApiLike);\n  const allLikes = await response.json();\n  allLikes.forEach((el) => {\n    if (document.querySelector(`[data-id=\"${el.item_id}\"]`)) {\n      document.querySelector(`[data-id=\"${el.item_id}\"]`).nextElementSibling.innerHTML = el.likes;\n    }\n  });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getLikes);\n\n//# sourceURL=webpack://pokedex/./src/modules/getLikes.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getLikes = async () => {\r\n  const getApiLike = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/DtThCBKG6zTr4DyB4qtW/likes';\r\n  const response = await fetch(getApiLike);\r\n  const allLikes = await response.json();\r\n  return allLikes;\r\n};\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getLikes);\n\n//# sourceURL=webpack://pokedex/./src/modules/getLikes.js?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst postLikes = async (itemId) => {\n  const likeObj = {\n    item_id: itemId,\n  };\n  const getApiLike = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/uvTXiMX6FVr6xHgADoVW/likes';\n  await fetch(getApiLike, {\n    method: 'POST',\n    headers: {\n      'Content-Type': 'application/json',\n    },\n    body: JSON.stringify(likeObj),\n  });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (postLikes);\n\n//# sourceURL=webpack://pokedex/./src/modules/postLikes.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst postLikes = async (itemId) => {\r\n  const likeObj = {\r\n    item_id: itemId,\r\n  };\r\n  const getApiLike = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/DtThCBKG6zTr4DyB4qtW/likes';\r\n  await fetch(getApiLike, {\r\n    method: 'POST',\r\n    headers: {\r\n      'Content-Type': 'application/json',\r\n    },\r\n    body: JSON.stringify(likeObj),\r\n  });\r\n};\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (postLikes);\r\n\n\n//# sourceURL=webpack://pokedex/./src/modules/postLikes.js?");
 
 /***/ }),
 
@@ -156,7 +156,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _postLikes_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./postLikes.js */ \"./src/modules/postLikes.js\");\n\n\nconst addEventToLike = () => {\n  const getAllLike = document.querySelectorAll('.like i');\n  getAllLike.forEach((item) => {\n    item.addEventListener('click', function () {\n      const stop = this.dataset.id;\n      const getLike = document.querySelector(`[data-id=\"${this.dataset.id}\"]`).nextElementSibling.innerHTML;\n      document.querySelector(`[data-id=\"${this.dataset.id}\"]`).nextElementSibling.innerHTML = Number(getLike) + 1;\n      this.style.pointerEvents = 'none';\n      setTimeout(() => {\n        document.querySelector(`[data-id=\"${stop}\"]`).style.pointerEvents = 'initial';\n      }, 400);\n      (0,_postLikes_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(this.dataset.id);\n    });\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addEventToLike);\n\n//# sourceURL=webpack://pokedex/./src/modules/showLikes.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _postLikes_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./postLikes.js */ \"./src/modules/postLikes.js\");\n\r\n\r\nconst addEventToLike = () => {\r\n  const getAllLike = document.querySelectorAll('.like .icon');\r\n  getAllLike.forEach((item) => {\r\n    item.addEventListener('click', (e) => {\r\n      const displayLikes = e.target.nextElementSibling;\r\n      displayLikes.innerText = Number(displayLikes.innerText) + 1;\r\n      const itemId = e.target.parentElement.parentElement.id;\r\n      (0,_postLikes_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(itemId);\r\n    });\r\n  });\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addEventToLike);\n\n//# sourceURL=webpack://pokedex/./src/modules/showLikes.js?");
+
+/***/ }),
+
+/***/ "./src/asset/like-svgrepo-com.svg":
+/*!****************************************!*\
+  !*** ./src/asset/like-svgrepo-com.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"img/like-svgrepo-com.svg\";\n\n//# sourceURL=webpack://pokedex/./src/asset/like-svgrepo-com.svg?");
 
 /***/ })
 
@@ -211,6 +221,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -225,6 +247,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
