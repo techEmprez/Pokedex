@@ -2,43 +2,42 @@ body {
   background-color: #283618;
 }
 
-​ .main-container {
+.main-container {
   width: 85%;
   height: 100%;
   border: 1px solid white;
-  box-shadow: 5px;
   margin: 0 auto;
   background-color: #606c38;
 }
 
-​ ​ .navbar-nav {
+.navbar-nav {
   font-size: 20px;
   font-weight: 200;
 }
 
-​ .nav-item {
+.nav-item {
   color: #6c757d;
   font-style: normal;
   text-decoration: none;
 }
 
-​ .nav-item:hover {
+.nav-item:hover {
   border-style: double;
   background-color: #283618;
   color: #fff;
 }
 
-​ .navbar-collapse ul li {
+.navbar-collapse ul li {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-​ .navbar-collapse ul li a {
+.navbar-collapse ul li a {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-​ .navbar-brand img {
+.navbar-brand img {
   width: 200px;
   height: 40px;
 }
@@ -63,12 +62,12 @@ body.popup-open {
 
 #reservationPopup {
   --nav-line-height: 3px;
-  --nav-line-color: rgb(88, 88, 88);
+  --nav-line-color: rgb(117, 116, 116);
 
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #283618;
   display: flex;
   justify-content: center;
   z-index: 100;
@@ -98,22 +97,6 @@ body.popup-open {
   letter-spacing: 2px;
 }
 
-#reservationPopup {
-  --nav-line-height: 3px;
-  --nav-line-color: rgb(117, 116, 116);
-
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  z-index: 100;
-  overflow: auto;
-  height: 100%;
-  gap: 5px;
-}
-
 #reservation-p__container {
   max-width: 90vw;
 
@@ -127,7 +110,7 @@ body.popup-open {
 #reservation__container {
   padding: 10px;
   border-radius: 10px;
-  background-color: white;
+  background-color: whitesmoke;
   width: 100%;
   height: auto;
   box-shadow:
@@ -213,4 +196,5 @@ body.popup-open {
   text-align: center;
   min-width: 17rem;
 }
+
 /* Reservation modal style ends here */
