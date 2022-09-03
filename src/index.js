@@ -36,16 +36,16 @@ window.addEventListener('submit', (e) => {
   if (e.target.matches('.form')) {
     const name = e.target.querySelector('.name').value;
     const text = e.target.querySelector('.text').value;
-    const id =
+    const i =
       e.target.previousElementSibling.previousElementSibling
         .previousElementSibling.id;
-    const comment2 = {
-      item_id: `${id}`,
-      user: `${name}`,
-      text: `${text}`,
+    const comment = {
+      item_id: i,
+      username: name.value,
+      comment: text.value,
     };
     e.target.reset();
-    post(id, Comment);
-    display(id);
+    post(i, comment);
+    display(i);
   }
 });
