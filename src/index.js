@@ -1,8 +1,10 @@
 import './style.css';
+import counter from './modules/counter.js';
 import getData from './modules/get.js';
 import Reservations from './modules/popupReservation.js';
 
 // calling imported Reservation-class
+const recipeCount = document.querySelector('.item-count');
 const reservationBtn = new Reservations();
 getData().then((data) => {
   const listOfMeals = data.meals;
@@ -18,6 +20,7 @@ getData().then((data) => {
     `;
     document.querySelector('.items-container').appendChild(meal);
     // Initiating reservation modal on button click button click
+    counter(newArray.length, recipeCount);
     reservationBtn.init();
   });
 });
