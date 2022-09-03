@@ -11,7 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
     clean: true,
-    assetModuleFilename: '[name][ext]',
+    assetModuleFilename: 'img/[name][ext]',
   },
   devServer: {
     static: './dist',
