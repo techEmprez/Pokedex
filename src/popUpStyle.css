@@ -22,6 +22,7 @@
 #overlay.open {
   display: block;
 }
+
 .popup {
   display: none;
   position: fixed;
@@ -36,4 +37,9 @@
 
 .comments-btn2 {
   width: 50px;
+}
+
+#meal-img {
+  width: 260px;
+  height: 260px;
 }
