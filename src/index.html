@@ -1,12 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>Hello</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Pokedex</title>
+  </head>
+
+  <body>
+    <div id="overlay"></div>
+    <section class="main-container">
+      <div class="container">
+        <div class="m-4">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a href="#" class="navbar-brand">
+                <img class="pokedex" src="./asset/mealLogo.png" alt="logo" />
+              </a>
+              <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-between"
+                id="navbarCollapse"
+              >
+                <div class="navbar-nav meals-counter">
+                  <a href="#" class="nav-item px-3">30 Meals</a>
+                </div>
+                <form class="d-flex">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Find a recipe"
+                    />
+                    <button type="button" class="btn btn-secondary">
+                      <i class="bi-search"></i>
+                    </button>
+                  </div>
+                </form>
+                <div
+                  class="navbar-nav grid grid-cols-2 divide-x font-bold w-auto text-sm"
+                >
+                  <a href="#" class="nav-item px-3">Login</a>
+                  <a href="#" class="nav-item px-4">Create Account</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="items-container"></div>
+      </div>
+    </section>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" id="popUp-container">
+            <h5 class="modal-title" id="exampleModalLabel">.</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img"
+              alt="img"
+              src="../src/asset/mealLogo2.png"
+              id="meal-img"
+            />
+            <p class="info" id="meal-desc"></p>
+            <div class="count1">
+              <h3>Comments <span class="counter" id="comment-count"></span></h3>
+            </div>
+            <div class="commentContainer"></div>
+            <h2 class="h2-add">Add a comment</h2>
+            <form class="form">
+              <input
+                type="text"
+                class="name"
+                placeholder="Your Name"
+                required
+              />
+              <textarea
+                id="message"
+                name="text"
+                class="text"
+                cols="30"
+                rows="6"
+                maxlength="100"
+                placeholder="Your insights"
+              ></textarea>
+              <button type="submit" class="comments-btn3">Comment</button>
+            </form>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

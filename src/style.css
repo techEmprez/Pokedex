@@ -1,3 +1,44 @@
 body {
-    background-color: red;
+  background-color: #283618;
+}
+
+.main-container {
+  width: 85%;
+  height: 100%;
+  border: 1px solid white;
+  margin: 0 auto;
+  background-color: #606c38;
+}
+
+.navbar-nav {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-item {
+  color: #6c757d;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  border-style: double;
+  background-color: #283618;
+  color: #fff;
+}
+
+.navbar-collapse ul li {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-collapse ul li a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: 40px;
 }
