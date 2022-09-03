@@ -65,3 +65,9 @@ img {
   cursor: pointer;
   margin-right: 0.5rem;
 }
+
+.qty {
+  color: white;
+  font-size: 15px;
+  margin: 15px;
+}
