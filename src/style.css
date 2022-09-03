@@ -14,7 +14,7 @@ body {
 ​ ​ .navbar-nav {
   font-size: 20px;
   font-weight: 200;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 ​ .nav-item {
@@ -46,4 +46,22 @@ body {
 
 p {
   display: none;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.like {
+  width: 50px;
+  height: 30px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-top: auto;
+}
+
+.like img {
+  cursor: pointer;
+  margin-right: 0.5rem;
 }
