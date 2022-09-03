@@ -10,23 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/popUpStyle.css":
-/*!******************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/popUpStyle.css ***!
-  \******************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".comments-btn1 {\\n  font-size: 40px;\\n  margin-top: 300px;\\n  margin-left: 200px;\\n}\\n\\n#overlay {\\n  display: none;\\n  position: fixed;\\n  width: 100%;\\n  height: 100%;\\n  background-color: rgba(0, 0, 0, 0.75);\\n  filter: blur(4px);\\n  -webkit-filter: blur(4px);\\n  overflow: hidden;\\n}\\n\\n#modal.open {\\n  display: block;\\n}\\n\\n#overlay.open {\\n  display: block;\\n}\\n\\n.popup {\\n  display: none;\\n  position: fixed;\\n  z-index: 1;\\n  width: 320px;\\n  height: 100vh;\\n  scroll-behavior: smooth;\\n  background-color: #fff;\\n  top: 3%;\\n  left: 7%;\\n}\\n\\n.comments-btn2 {\\n  width: 50px;\\n}\\n\\n#meal-img {\\n  width: 260px;\\n  height: 260px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://pokedex/./src/popUpStyle.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
 /*!*************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n  background-color: #283618;\\r\\n}\\r\\n\\r\\n.main-container {\\r\\n  width: 85%;\\r\\n  height: 100%;\\r\\n  border: 1px solid white;\\r\\n  margin: 0 auto;\\r\\n  background-color: #606c38;\\r\\n}\\r\\n\\r\\n.navbar-nav {\\r\\n  font-size: 20px;\\r\\n  font-weight: 200;\\r\\n  font-family: 'Times New Roman', Times, serif;\\r\\n}\\r\\n\\r\\n.nav-item {\\r\\n  color: #6c757d;\\r\\n  font-style: normal;\\r\\n  text-decoration: none;\\r\\n}\\r\\n\\r\\n.nav-item:hover {\\r\\n  border-style: double;\\r\\n  background-color: #283618;\\r\\n  color: #fff;\\r\\n}\\r\\n\\r\\n.navbar-collapse ul li {\\r\\n  padding-top: 0;\\r\\n  padding-bottom: 0;\\r\\n}\\r\\n\\r\\n.navbar-collapse ul li a {\\r\\n  padding-top: 0;\\r\\n  padding-bottom: 0;\\r\\n}\\r\\n\\r\\n.navbar-brand img {\\r\\n  width: 200px;\\r\\n  height: 40px;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://pokedex/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-color: #283618;\\n}\\n\\n.main-container {\\n  width: 85%;\\n  height: 100%;\\n  border: 1px solid white;\\n  margin: 0 auto;\\n  background-color: #606c38;\\n}\\n\\n.navbar-nav {\\n  font-size: 20px;\\n  font-weight: 200;\\n  font-family: \\\"Times New Roman\\\", Times, serif;\\n}\\n\\n.nav-item {\\n  color: #6c757d;\\n  font-style: normal;\\n  text-decoration: none;\\n}\\n\\n.nav-item:hover {\\n  border-style: double;\\n  background-color: #283618;\\n  color: #fff;\\n}\\n\\n.navbar-collapse ul li {\\n  padding-top: 0;\\n  padding-bottom: 0;\\n}\\n\\n.navbar-collapse ul li a {\\n  padding-top: 0;\\n  padding-bottom: 0;\\n}\\n\\n.like {\\n  width: 50px;\\n  height: 30px;\\n  padding-bottom: 10px;\\n  padding-top: 5px;\\n  margin-top: auto;\\n}\\n\\n.like img {\\n  cursor: pointer;\\n  margin-right: 0.5rem;\\n}\\n\\n.navbar-brand img {\\n  width: 200px;\\n  height: 40px;\\n}\\n\\np {\\n  display: none;\\n}\\n\\n.qty {\\n  color: white;\\n  font-size: 15px;\\n  margin: 15px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://pokedex/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -47,16 +37,6 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://pokedex/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
-
-/***/ }),
-
-/***/ "./src/popUpStyle.css":
-/*!****************************!*\
-  !*** ./src/popUpStyle.css ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_popUpStyle_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./popUpStyle.css */ \"./node_modules/css-loader/dist/cjs.js!./src/popUpStyle.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_popUpStyle_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_popUpStyle_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_popUpStyle_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_popUpStyle_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://pokedex/./src/popUpStyle.css?");
 
 /***/ }),
 
@@ -136,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _popUpStyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./popUpStyle.css */ \"./src/popUpStyle.css\");\n/* harmony import */ var _modules_get_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/get.js */ \"./src/modules/get.js\");\n/* harmony import */ var _modules_getcomapi_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/getcomapi.js */ \"./src/modules/getcomapi.js\");\n\n\n\n\n(0,_modules_get_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])().then((data) => {\n  const listOfMeals = data.meals;\n  listOfMeals.forEach((item, id) => {\n    const meal = document.createElement('div');\n    meal.classList.add('meal');\n    meal.innerHTML = `\n      <h2>${item.strMeal}</h2>\n      <img src=\"${item.strMealThumb}\" alt=\"${item.strMeal}\">\n\n      <button type=\"button\" class=\"comments-btn1\" id=\"comment-btn-${id}\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">Comments</button>\n      <button type=\"button\" class=\"reservations-btn\">reservations</button>\n\n    `;\n    document.querySelector('.items-container').appendChild(meal);\n    const commentBtns = document.querySelectorAll(`.comments-btn1`);\n\n    commentBtns.forEach((item) => {\n      item.addEventListener('click', (e) => {\n        const commentId = +e.target.id.split('-')[2];\n        if (commentId === id) {\n          (0,_modules_getcomapi_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(commentId);\n          (0,_modules_getcomapi_js__WEBPACK_IMPORTED_MODULE_3__.getComment)(commentId);\n        }\n      });\n    });\n  });\n});\n\nwindow.addEventListener('submit', (e) => {\n  e.preventDefault();\n  if (!e.target.matches('.form')) return;\n  if (e.target.matches('.form')) {\n    const name = e.target.querySelector('.name').value;\n    const text = e.target.querySelector('.text').value;\n    const i =\n      e.target.previousElementSibling.previousElementSibling\n        .previousElementSibling.id;\n    const comment = {\n      item_id: ` ${i}`,\n      username: `${name}`,\n      comment: `${text}`,\n    };\n    e.target.reset();\n    (0,_modules_getcomapi_js__WEBPACK_IMPORTED_MODULE_3__.post)(i, comment);\n    (0,_modules_getcomapi_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(i);\n  }\n});\n\n\n//# sourceURL=webpack://pokedex/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_get_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/get.js */ \"./src/modules/get.js\");\n/* harmony import */ var _modules_getLikes_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/getLikes.js */ \"./src/modules/getLikes.js\");\n/* harmony import */ var _asset_like_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./asset/like-svgrepo-com.svg */ \"./src/asset/like-svgrepo-com.svg\");\n/* harmony import */ var _modules_showLikes_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/showLikes.js */ \"./src/modules/showLikes.js\");\n\n\n\n\n\n\nconst renderLikes = async (listItem) => {\n  const response = await (0,_modules_getLikes_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n  response.forEach((e) => {\n    if (e.item_id === `${listItem.id}`) {\n      listItem.querySelector('.qty').innerText = e.likes;\n    }\n  });\n};\n\nconst displayMeals = () => {\n  (0,_modules_get_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])().then((data) => {\n    const listOfMeals = data.meals;\n    listOfMeals.forEach((item) => {\n      const meal = document.createElement('div');\n      meal.classList.add('meal');\n      meal.id = item.idMeal;\n      meal.innerHTML = `\n      <h2>${item.strMeal}</h2>\n      <img src=\"${item.strMealThumb}\" alt=\"${item.strMeal}\">\n      <p>${item.strInstructions}</p>\n      <button type=\"button\" class=\"comments-btn1\">Comments</button>\n      <button type=\"button\" class=\"comments-btn2\">reservations</button>\n      <div class=\"like\">\n      <img src='${_asset_like_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_3__}' class=\"icon\" />          \n      <span class=\"qty\">0</span> <span>Likes</span></p>\n      </div>\n    `;\n\n      document.querySelector('.items-container').appendChild(meal);\n    });\n  // addEventToLike();\n  // getLikes();\n  }).finally(() => {\n    (0,_modules_showLikes_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n    document.querySelectorAll('.meal').forEach((meal) => {\n      renderLikes(meal);\n    });\n  });\n};\n\nwindow.addEventListener('load', () => {\n  displayMeals();\n});\n\n\n//# sourceURL=webpack://pokedex/./src/index.js?");
 
 /***/ }),
 
@@ -146,17 +126,47 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getMealData = async () => {\r\n  let arr = [];\r\n  const url = 'https://www.themealdb.com/api/json/v1/1/search.php?f=f';\r\n\r\n  await fetch(url)\r\n    .then((response) => response.json())\r\n    .then((data) => {\r\n      arr = data;\r\n    });\r\n  return arr;\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getMealData);\r\n\n\n//# sourceURL=webpack://pokedex/./src/modules/get.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getData = async () => {\n  let arr = [];\n  const url = 'https://www.themealdb.com/api/json/v1/1/search.php?f=f';\n\n  await fetch(url).then((response) => response.json()).then((data) => {\n    arr = data;\n  });\n  return arr;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getData);\n\n\n//# sourceURL=webpack://pokedex/./src/modules/get.js?");
 
 /***/ }),
 
-/***/ "./src/modules/getcomapi.js":
+/***/ "./src/modules/getLikes.js":
+/*!*********************************!*\
+  !*** ./src/modules/getLikes.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getLikes = async () => {\n  const getApiLike = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/DtThCBKG6zTr4DyB4qtW/likes';\n  const response = await fetch(getApiLike);\n  const allLikes = await response.json();\n  return allLikes;\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getLikes);\n\n//# sourceURL=webpack://pokedex/./src/modules/getLikes.js?");
+
+/***/ }),
+
+/***/ "./src/modules/postLikes.js":
 /*!**********************************!*\
-  !*** ./src/modules/getcomapi.js ***!
+  !*** ./src/modules/postLikes.js ***!
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"commentsCounter\": () => (/* binding */ commentsCounter),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   \"getComment\": () => (/* binding */ getComment),\n/* harmony export */   \"post\": () => (/* binding */ post)\n/* harmony export */ });\nconst modal = document.getElementById('popUp-container');\nconst mealHeading = document.getElementById('exampleModalLabel');\nconst mealDesc = document.getElementById('meal-desc');\nconst mealImg = document.getElementById('meal-img');\nconst comment5 = document.querySelector('.commentContainer');\nconst overlay = document.querySelector('#overlay');\nlet showComments;\nconst popUprr = [\n  52802, 52815, 52835, 52896, 52903, 52906, 52915, 52918, 52919, 52957, 52996,\n  53025, 53030, 53043, 53061, 53064,\n];\n\nconst getComment = async (i) => {\n  const response = await fetch(\n    `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/HRxPpdN7MLinlCuupthb/comments?item_id=${+i}`\n  );\n  const data = await response.json();\n  const arry = Array.from(data);\n  await showComments(arry);\n  console.log(arry);\n};\n\nconst commentsCounter = (data) => {\n  let count = 0;\n  if (data && data.length > 0) {\n    count = data.length;\n  }\n  return count;\n};\n\nshowComments = (data) => {\n  const count = commentsCounter(data);\n  if (data && data.length > 0) {\n    comment5.innerHTML = '';\n    data.forEach((item) => {\n      const comment6 = document.createElement('li');\n      comment6.classList.add('comment');\n      comment6.innerText = `${item.creation_date}  ${item.username}: ${item.comment}`;\n      comment5.append(comment6);\n    });\n  } else {\n    const noComments = document.createElement('h3');\n    noComments.innerText = 'Be the first to add a comment';\n    comment5.append(noComments);\n  }\n};\n\nconst post = async (i, comment) => {\n  console.log(comment);\n  await fetch(\n    `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/HRxPpdN7MLinlCuupthb/comments`,\n    {\n      method: 'POST',\n      headers: {\n        'Content-type': 'application/json',\n      },\n      body: JSON.stringify(comment),\n    }\n  );\n  getComment(i);\n};\n\nconst display = async (i) => {\n  const getPopup = await fetch(\n    `https://www.themealdb.com/api/json/v1/1/search.php?f=f`\n  );\n  getPopup.json().then((data) => {\n    modal.classList.add('open');\n    data.meals\n      .map((meals1) => {\n        if (+meals1.idMeal === popUprr[i]) {\n          console.log(meals1);\n          mealHeading.innerHTML = `${meals1.strMeal}`;\n          mealDesc.innerHTML = `${meals1.strInstructions}`;\n          mealImg.src = `${meals1.strMealThumb}`;\n        }\n      })\n      .join('');\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (display);\n\n\n//# sourceURL=webpack://pokedex/./src/modules/getcomapi.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst postLikes = async (itemId) => {\n  const likeObj = {\n    item_id: itemId,\n  };\n  const getApiLike = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/DtThCBKG6zTr4DyB4qtW/likes';\n  await fetch(getApiLike, {\n    method: 'POST',\n    headers: {\n      'Content-Type': 'application/json',\n    },\n    body: JSON.stringify(likeObj),\n  });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (postLikes);\n\n\n//# sourceURL=webpack://pokedex/./src/modules/postLikes.js?");
+
+/***/ }),
+
+/***/ "./src/modules/showLikes.js":
+/*!**********************************!*\
+  !*** ./src/modules/showLikes.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _postLikes_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./postLikes.js */ \"./src/modules/postLikes.js\");\n\n\nconst addEventToLike = () => {\n  const getAllLike = document.querySelectorAll('.like .icon');\n  getAllLike.forEach((item) => {\n    item.addEventListener('click', (e) => {\n      const displayLikes = e.target.nextElementSibling;\n      displayLikes.innerText = Number(displayLikes.innerText) + 1;\n      const itemId = e.target.parentElement.parentElement.id;\n      (0,_postLikes_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(itemId);\n    });\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addEventToLike);\n\n//# sourceURL=webpack://pokedex/./src/modules/showLikes.js?");
+
+/***/ }),
+
+/***/ "./src/asset/like-svgrepo-com.svg":
+/*!****************************************!*\
+  !*** ./src/asset/like-svgrepo-com.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"img/like-svgrepo-com.svg\";\n\n//# sourceURL=webpack://pokedex/./src/asset/like-svgrepo-com.svg?");
 
 /***/ })
 
@@ -211,6 +221,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -225,6 +247,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
