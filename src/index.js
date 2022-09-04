@@ -2,7 +2,10 @@ import './style.css';
 import './popUpStyle.css';
 import getMealData from './modules/get.js';
 import display, { getComment, post } from './modules/getcomapi.js';
+// import getData from './modules/get.js';
+import Reservations from './modules/popupReservation.js';
 
+const reservationBtn = new Reservations();
 getMealData().then((data) => {
   const listOfMeals = data.meals;
   listOfMeals.forEach((item, id) => {
@@ -13,10 +16,11 @@ getMealData().then((data) => {
       <img src="${item.strMealThumb}" alt="${item.strMeal}">
 
       <button type="button" class="comments-btn1" id="comment-btn-${id}" data-bs-toggle="modal" data-bs-target="#exampleModal">Comments</button>
-      <button type="button" class="reservations-btn">reservations</button>
+      <button type="button" class="reservation-btn" data-name='${item.strMeal}'>Reservations</button>
 
     `;
     document.querySelector('.items-container').appendChild(meal);
+    reservationBtn.init();
     const commentBtns = document.querySelectorAll('.comments-btn1');
     commentBtns.forEach((item) => {
       item.addEventListener('click', (e) => {
@@ -36,9 +40,8 @@ window.addEventListener('submit', (e) => {
   if (e.target.matches('.form')) {
     const name = e.target.querySelector('.name').value;
     const text = e.target.querySelector('.text').value;
-    const i =
-      e.target.previousElementSibling.previousElementSibling
-        .previousElementSibling.id;
+    const i = e.target.previousElementSibling.previousElementSibling
+      .previousElementSibling.id;
 
     const comment = {
       item_id: ` ${i}`,

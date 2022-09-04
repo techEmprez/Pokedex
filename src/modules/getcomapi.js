@@ -12,7 +12,7 @@ const popUprr = [
 
 export const getComment = async (i) => {
   const response = await fetch(
-    `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/HRxPpdN7MLinlCuupthb/comments?item_id=${i}`
+    `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/HRxPpdN7MLinlCuupthb/comments?item_id=${i}`,
   );
   const data = await response.json();
   const arry = Array.from(data);
@@ -28,6 +28,7 @@ export const commentsCounter = (data) => {
 };
 
 showComments = (data) => {
+  // eslint-disable-next-line no-unused-vars
   const count = commentsCounter(data);
   if (data && data.length > 0) {
     comment5.innerHTML = '';
@@ -46,25 +47,26 @@ showComments = (data) => {
 
 export const post = async (i, comment) => {
   await fetch(
-    `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/HRxPpdN7MLinlCuupthb/comments`,
+    'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/HRxPpdN7MLinlCuupthb/comments',
     {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',
       },
       body: JSON.stringify(comment),
-    }
+    },
   );
   getComment(i);
 };
 
 const display = async (i) => {
   const getPopup = await fetch(
-    `https://www.themealdb.com/api/json/v1/1/search.php?f=f`
+    'https://www.themealdb.com/api/json/v1/1/search.php?f=f',
   );
   getPopup.json().then((data) => {
     modal.classList.add('open');
     data.meals
+      // eslint-disable-next-line array-callback-return
       .map((meals1) => {
         if (+meals1.idMeal === popUprr[i]) {
           console.log(meals1);
